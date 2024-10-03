@@ -43,9 +43,12 @@ php artisan key:generate
 touch database/database.sqlite
 php artisan migrate
 ```
-### Troubleshooting
+## Troubleshooting
 
 If you have any issues please report here.
-***Keep in mind*** I won't be able to support if you are not using Ubuntu or if the issue is specific to Laravel, PHP, NPM, Compose or any of the libraries in this project. I can only support for downloading and setting up the initial boilerplate.
+
+***Keep in mind*** I won't be able to support if you are not using Ubuntu or if the issue is specific to Laravel, PHP, NPM, Compose or any of the libraries in this project.
+
+I can only support for downloading and setting up the initial boilerplate.
 
 Happy coding ;)
