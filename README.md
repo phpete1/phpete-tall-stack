@@ -1,15 +1,20 @@
 # phpete-tall-stack
 
-Are you lazy like me? Are you fed up of installing Laravel, Tailwind, Alpine and configuring for your project?
-This is a pre-built Laravel project with Tailwind, Alpine.js, and Livewire integrated. The following instructions will help you clone, install, and run this project.
+**Are you lazy like me?**
 
-**Note**: These steps have only been tested on **Ubuntu**.
+**Are you fed up of installing Tailwind, Alpine, Livewire and configuring for your Laravel project?**
+
+Then you're in the right place!
+
+This is a pre-built boilerplate project with Tailwind, Alpine.js, Laravel and Livewire integrated **(TALL stack)**.
+
+**Note**: These install steps have only been tested on **Ubuntu**. Might work on Mac. Definetely won't work on Windows (like everything else).
 
 **Disclaimer**: All scripts and software in this repository are not mine. I take NO credit. I take no responsibility if anything goes wrong.
 
 ## Requirements
 
-Before you begin, ensure you have the following installed on your machine:
+Before you begin, make sure you have the following stuff setup (or it won't work):
 
 - **PHP** (version 8.1 or higher)
 - **Composer** (Dependency manager for PHP)
@@ -43,12 +48,25 @@ php artisan key:generate
 touch database/database.sqlite
 php artisan migrate
 ```
+
+Once you're done, run this code
+
+```
+php artisan serve
+npm run dev
+```
+Visit the app via localhost:8000 (or whatever port you specify) and you should see a working Alpine script, with a Tailwind style.
+
 ## Troubleshooting
 
-If you have any issues please report here.
+If you have any issues with installing please report here.
 
 ***Keep in mind*** I won't be able to support if you are not using Ubuntu or if the issue is specific to Laravel, PHP, NPM, Compose or any of the libraries in this project.
 
 I can only support for downloading and setting up the initial boilerplate.
+
+## Contributing
+
+If you fancy testing on macOS and Windows, submit a pull-request with the instructions and I'll even buy you a coffee.
 
 Happy coding ;)
