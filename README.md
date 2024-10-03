@@ -17,7 +17,19 @@ Before you begin, ensure you have the following installed on your machine:
 - **NPM** (Node Package Manager)
 - **SQLite** (for local database, or any other database as configured)
 
-### Install
+## What's included in this boilerplate?
+
+- Laravel 11.26.0
+- Auto Prefixer 10.4.20
+- Axios 1.7.4
+- Laravel Vite Plugin 1.0
+- PostCSS 8.4.47
+- Tailwind CSS 3.4.13
+- Vite 5.0
+- AlpineJS 3.14.1
+- Laravel Livewire 3.5
+
+## Install
 
 Just copy and paste the below code
 
