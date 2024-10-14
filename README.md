@@ -70,3 +70,5 @@ I can only support for downloading and setting up the initial boilerplate.
 If you fancy testing on macOS and Windows, submit a pull-request with the instructions and I'll even buy you a coffee.
 
 Happy coding ;)
+
+> "...For the LORD sees not as man sees: man looks on the outward appearance, but the LORD looks on the heart.” 1 Samuel 16:7
