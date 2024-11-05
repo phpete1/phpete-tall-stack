@@ -41,7 +41,6 @@ Just copy and paste the below code
 ```
 wget https://github.com/phpete1/phpete-tall-stack/archive/refs/heads/master.zip
 unzip master.zip && mv phpete-tall-stack-master project-directory
-unzip master.zip ./
 cd project-directory
 composer install
 npm install
