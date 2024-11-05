@@ -39,7 +39,9 @@ Before you begin, make sure you have the following stuff setup (or it won't work
 Just copy and paste the below code
 
 ```
-git clone https://github.com/phpete1/phpete-tall-stack project-directory
+wget https://github.com/phpete1/phpete-tall-stack/archive/refs/heads/master.zip
+unzip master.zip && mv phpete-tall-stack-master project-directory
+unzip master.zip ./
 cd project-directory
 composer install
 npm install
